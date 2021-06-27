@@ -1,0 +1,207 @@
+.main{
+    margin: 0,0;
+   
+    background: url("back1.jpg");
+    background-size: cover;
+    height: max-content;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.mainn{
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.j{font-size: 10vw;
+    margin-top: 4px;
+    margin: 1px;
+    text-shadow: 2px 3px black;
+    color:rgb(248, 248, 247);
+    transition: ease-in 0.1s;
+}
+.j:hover{
+    font-size: 8vw;
+    transform: rotate(-20deg);
+    color:black;
+    text-shadow: 2px 3px rgb(240, 238, 238);
+    
+}
+.u{
+    transition: ease-in 0.2s;
+    font-size: 7vw;
+    margin-top: 7px;
+    margin: 1px;
+    text-shadow: 2px 3px rgb(247, 245, 243);
+    color:rgb(248, 9, 9);
+}
+.u:hover{
+    font-size: 9vw;
+    transform: rotate(10deg);
+}
+.r{
+    transition: ease-in 0.2s;
+    font-size: 9vw;
+    margin-top: 6px;
+    margin: 1px;
+    text-shadow: 2px 3px rgb(235, 235, 235);
+    color:rgb(77, 50, 0);
+}
+.r:hover{
+    color:rgb(8, 235, 8);
+    transform: rotate(50deg);
+}
+.r1{
+    transition: ease-in 0.2s;
+    font-size: 9vw;
+    margin-top: 6px;
+    margin: 1px;
+    text-shadow: 2px 3px black;
+    color:rgb(79, 4, 102);
+}
+.r1:hover{
+    font-size: 6vw;
+    transform: rotate(-20deg);
+}
+.r2{
+    transition: ease-in 0.2s;
+    font-size: 9vw;
+    margin-top: 6px;
+    margin: 1px;
+    text-shadow: 2px 3px black;
+    color:rgb(199, 89, 233);
+}
+.r2:hover{
+    font-size: 6vw;
+    transform: rotate(20deg);
+}
+.a{
+    transition: ease-in 0.2s;
+    font-size: 7vw;
+    margin-top: 9px;
+    margin: 1px;
+    text-shadow: 2px 3px black;
+    color:rgb(238, 234, 2);
+}
+.a:hover{
+    font-size: 8vw;
+    transform: rotate(70deg);
+}
+.s{
+    transition: ease-in 0.2s;
+    font-size: 8vw;
+    margin-top: 5px;
+    margin: 1px;
+    text-shadow: 2px 3px black;
+    color:rgb(247, 2, 255);
+}
+.s:hover{
+    font-size: 7vw;
+    transform: rotateZ(-25deg);
+}
+.i{
+    transition: ease-in 0.2s;
+    font-size: 9vw;
+    margin-top: 5px;
+    margin: 1px;
+    text-shadow: 2px 3px black;
+    color:rgb(253, 5, 5);
+}
+.i:hover{
+    font-size: 7vw;
+    transform: rotate(10deg);   
+}
+.c{
+    transition: ease-in 0.1s;
+    font-size: 7vw;
+    margin-top: 5px;
+    margin: 1px;
+    text-shadow: 2px 3px black;
+    color:rgb(82, 51, 255);
+}
+.c:hover{
+    font-size: 9vw;
+    transform: rotate(15deg);
+}
+.p{
+    font-size: 10vw;
+    transition: ease-in 0.1s;
+    margin-top: 2px;
+    margin: 1px;
+    text-shadow: 2px 3px black;
+    color:rgb(0, 250, 12);
+}
+.p:hover{
+    
+    font-size: 7vw;
+    transform: rotate(10deg);
+}
+.k{
+    font-size: 9vw;
+    margin-top: 2px;
+    margin: 1px;
+    transition: ease-in 0.1s;
+    text-shadow: 2px 3px white;
+    color:rgb(0, 30, 65);
+}
+.k:hover{
+    color:rgb(109, 151, 199);
+    font-size: 7vw;
+    transform: rotate(20deg);
+}
+ul{
+    animation-delay:4s;
+    font-size: 2vw;
+    width: 100%;
+  
+}
+li{
+    
+    margin:10px;
+    margin-top: 5px;
+    color: rgb(0, 73, 16);
+    width: fit-content;
+
+}
+
+li:hover{
+    animation: none;
+}
+.li1{
+    animation: uli 5s infinite ; 
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+}
+.li2{
+    animation: uli 3s infinite ; 
+    animation-delay: 2s;
+    animation-direction: alternate-reverse;
+}
+.li3{
+    animation: uli 6s infinite ; 
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+}
+.li4{
+    animation: uli 3s infinite ; 
+    animation-delay: 1s;
+    animation-direction: alternate-reverse;
+}
+.li5{
+    animation: uli 4s infinite ; 
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+}
+@keyframes uli{
+    from {
+        margin-left:100%;
+        width:100%
+      }
+    
+      to {
+        margin-left:0%;
+        width:100%;
+      }
+}
