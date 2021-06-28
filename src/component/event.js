@@ -12,7 +12,7 @@ class Event extends Component{
             <div className="j">J̾</div>
             <div className="u">u</div>
             <div className="r1">r</div>
-          
+         
             <div className="a">a</div>
             <div className="s">s</div>
             <div className="s">s</div>
@@ -38,7 +38,7 @@ class Event extends Component{
        <h2 className="center white-text">Springtime In The Park</h2>
         
       </div>
-      <div className="col l6 m6 s12"> <img  src="./pic/spring.jpg" height="450vw" /></div>
+      <div className="col l6 m6 s12"> <img  className="responsive-img" src="./pic/spring.jpg" height="450vw" /></div>
       
       </div>
       <div className="row blue container lighten-2 ">
@@ -46,21 +46,21 @@ class Event extends Component{
        <h2 className="center white-text">Summer</h2>
         
       </div>
-      <div className="col l6 m6 s12"> <img  src="./pic/sum.jpg" height="450vw" width="450vw" /></div>
+      <div className="col l6 m6 s12"> <img  className="responsive-img" src="./pic/sum.jpg" height="450vw" width="450vw" /></div>
       </div>
       <div className="row purple ">
       <div className="col sec  l6 m6 s12">
        <h2 className="center white-text">JurassicPark in the Dark</h2>
         
       </div>
-      <div className="col l6 m6 s12"> <img  src="./pic/harsh.jpg" height="450vw" /></div>
+      <div className="col l6 m6 s12"> <img  className="responsive-img" src="./pic/harsh.jpg" height="450vw" /></div>
       </div>
       <div className="row container green darken-3 ">
       <div className="col sec  l6 m6 s12">
        <h2 className="center white-text">Christmas Candylane</h2>
         
       </div>
-      <div className="col l6 m6 s12"> <img  src="./pic/ch.jpg" height="450vw" /></div>
+      <div className="col l6 m6 s12"> <img  className="responsive-img" src="./pic/ch.jpg" height="450vw" /></div>
       </div>
       </div>
 
