@@ -31,14 +31,16 @@ class About extends Component{
               <li className="li5  text-white"><button onClick={()=>{this.props.history.push('/about')}} className="btn red white-text" >ABOUT US</button></li>
               
             </ul></div>
-    <div className="row center">
+    <div className="row  rr center">
     
-    <div className="col s12 m4 l4"><img src="./pic/ab1.jpg"></img></div>
+    <div className="col s12 m4 l4"><img  src="./pic/ab1.jpg"></img></div>
     <div className="col sec2 s12 m4 l4"><h2 className=" left">About us</h2></div>
     <div className="col s12 m4 l4"><img src="./pic/ab2.jpg" ></img></div>
-    <div className="col container   z-depth-3  s12 m12 l12">
+    <div className="col   z-depth-3  s12 m12 l12">
      <h3 className=" purple-text">4 Seasons Of Jurassicpark Happy</h3>
 <br></br>
+<div className="im">
+<img className="responsive-img"  src="./pic/ab4.jpg"></img></div>
      <h3 className="blue-text">Springtime In The Park</h3>
      <h5>Get an early taste of the summer fun at our seasonal event, Springtime In The Park. During your visit, enjoy more than 50 rides.</h5>
 <br></br>
@@ -62,6 +64,16 @@ Jurassicpark is a sweet summertime destination. Enjoy 121 acres of outdoor attra
 <br>
 
 </br>
+ <div className="col blue lighten-2 s12 m4 l4"><img  src="./pic/ab3.jpg" height="270vw"></img></div>
+    <div className="col blue lighten-2  s12 m4 l4"><img  src="./pic/ab5.jpg" height="270vw" /></div>
+    <div className="col blue lighten-2 s12 m4 l4"><img src="./pic/ab6.jpg" height="270vw"></img></div>
+    <br>
+
+</br>
+<br>
+
+</br>
+
 <h3 className="blue-text">Jurassicpark In The Dark</h3>
 <h5>Get ready for sweets, treats, and front row seats at our seasonal event, Jurassicpark In The Dark. Plus, this is the only time of the year to experience Creatures Of The Night® attraction at ZooAmerica and dark rides!</h5>
 <br></br>
@@ -69,11 +81,22 @@ Jurassicpark is a sweet summertime destination. Enjoy 121 acres of outdoor attra
 
 </br>
 <br></br>
+<div className="col red lighten-2 s12 m4 l4"><img  src="./pic/ab7.jpg" height="270vw"></img></div>
+    <div className="col red lighten-2  s12 m4 l4"><img  src="./pic/ab8.jpg" height="270vw"/></div>
+    <div className="col red lighten-2 s12 m4 l4"><img src="./pic/ab9.jpg" height="270vw" width="380vw"></img></div>
+    <br>
+
+</br>
+<br>
+
+</br>
 <h3 className="blue-text">Jurassicpark Christmas Candylane</h3>
 <h5>Get in the spirit with festive family fun at our seasonal event, Jurassicpark Christmas Candylane. Check out more than 5 million twinkling lights from the top of a coaster and visit Santa and all 9 of his reindeer!</h5>
+   
+<img className="responsive-img"  src="./pic/abm.jpg"></img>
     </div>
     
-    
+   
 
 
     </div>
@@ -83,7 +106,7 @@ Jurassicpark is a sweet summertime destination. Enjoy 121 acres of outdoor attra
     </br>
    
     
-  <h5 className="center">contact us</h5>
+  <h5 className="center">contact us:</h5>
   <div className="icons">
   <i className="center medium material-icons">directions
  </i>
@@ -91,6 +114,7 @@ Jurassicpark is a sweet summertime destination. Enjoy 121 acres of outdoor attra
   <i className="medium material-icons">business_center</i>
   <i className="medium material-icons">chat_bubble</i>
 </div>
+<div></div>
 </div>
 
       
