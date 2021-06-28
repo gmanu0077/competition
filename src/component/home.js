@@ -66,14 +66,14 @@ class Home extends Component{
 
       <div className="row con ">
       <div className="col l3 m6 s12">
-      <img   src="./pic/2.jpg" height="300vw" />
+      <img   src="./pic/2.jpg" height="300vw" width="330vw" />
       </div>
-      <div className="col l3 m6 s12"> <img  src="./pic/7.jpg" height="300vw" /></div>
+      <div className="col l3 m6 s12"> <img  src="./pic/7.jpg" height="300vw" width="330vw" /></div>
       <div className="col l3  m6 s12">
-      <img  src="./pic/4.jpg" height="300vw" />
+      <img  src="./pic/4.jpg" height="300vw" width="330vw" />
       </div>
       <div className="col l3 m6 s12">
-      <img  src="./pic/3.jpg" height="300vw" />
+      <img  src="./pic/3.jpg" height="300vw" width="330vw" />
       </div>
       </div>
 
