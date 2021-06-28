@@ -11,6 +11,22 @@
 h5{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.col{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.col img{
+  border-radius: 5px;
+  margin-top:8px
+}
+.im img{
+  transition: ease-in 0.4s;
+}
+
+.im img:hover{
+  opacity: 0.7;
+  transform: scale(.7);
+}
 @media only screen and (max-width: 600px){
 
 .rr img{
