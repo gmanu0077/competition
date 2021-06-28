@@ -12,7 +12,7 @@ class Event extends Component{
             <div className="j">J̾</div>
             <div className="u">u</div>
             <div className="r1">r</div>
-            <div className="r2">r</div>
+          
             <div className="a">a</div>
             <div className="s">s</div>
             <div className="s">s</div>
