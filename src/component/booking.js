@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import "./form.css"
+
 import "./nav.css"
 class Book extends Component{
   render(){
@@ -56,7 +56,7 @@ class Book extends Component{
       </div>
       <div className="col s12 m6 l6">
 
-          <img src="./pic/book1.jpg"></img>
+          <img  className="responsive-img" src="./pic/book1.jpg"></img>
       </div>
       
       </div>
