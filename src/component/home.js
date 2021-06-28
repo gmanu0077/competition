@@ -78,7 +78,7 @@ class Home extends Component{
       </div>
 
 <div className="brown foot white-text">
-  <h5 className="center">contact us</h5>
+  <h5 className="center">contact us:</h5>
   <div className="icons">
   <i className="center medium material-icons">directions
  </i>
