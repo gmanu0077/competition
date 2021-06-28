@@ -170,7 +170,7 @@ class Post extends Component{
     <div class="col s12 m6">
       <div class="card red lighten-2  z-depth-3">
         <div class="card-content white-text">
-        <img src="./pic/1.jpg"  id="1" height="300vw" width="400vw" />
+        <img  className="responsive-img" src="./pic/1.jpg"  id="1" height="300vw" width="400vw" />
         </div>
         <div class="card-action">
           <button onClick={this.zoom} className="btn">show more</button>
@@ -183,7 +183,7 @@ class Post extends Component{
     <div class="col s12 m6">
       <div class="card yellow lighten-2  z-depth-3">
         <div class="card-content white-text">
-        <img src="./pic/2.jpg" id="2"  height="300vw" width="400vw"/>
+        <img  className="responsive-img" src="./pic/2.jpg" id="2"  height="300vw" width="400vw"/>
         </div>
         <div class="card-action">
         <button onClick={this.zoom2} className="btn">show more</button>
@@ -196,7 +196,7 @@ class Post extends Component{
   <div class="col s12 m6">
       <div class="card orange lighten-3 z-depth-3">
         <div class="card-content white-text">
-        <img src="./pic/3.jpg" id="3" height="300vw" width="400vw"/>
+        <img  className="responsive-img" src="./pic/3.jpg" id="3" height="300vw" width="400vw"/>
         </div>
         <div class="card-action">
         <button onClick={this.zoom3} className="btn">show more</button>
@@ -208,7 +208,7 @@ class Post extends Component{
          <div class="col s12 m6">
       <div class="card green lighten-2  z-depth-3">
         <div class="card-content white-text">
-        <img src="./pic/4.jpg" id="4" height="300vw" width="400vw" />
+        <img  className="responsive-img" src="./pic/4.jpg" id="4" height="300vw" width="400vw" />
         </div>
         <div class="card-action">
         <button onClick={this.zoom4} className="btn">show more</button>
@@ -220,7 +220,7 @@ class Post extends Component{
     <div class="col s12 m6">
       <div class="card blue lighten-2  z-depth-3">
         <div class="card-content white-text">
-        <img src="./pic/5.jpg" id="5" height="300vw" width="400vw" />
+        <img  className="responsive-img" src="./pic/5.jpg" id="5" height="300vw" width="400vw" />
         </div>
         <div class="card-action">
         <button onClick={this.zoom5} className="btn">show more</button>
@@ -234,7 +234,7 @@ class Post extends Component{
     <div class="col s12 m6">
       <div class="card pink lighten-2  z-depth-3">
         <div class="card-content white-text">
-        <img src="./pic/6.jpg" id="6" height="300vw" width="400vw" />
+        <img  className="responsive-img" src="./pic/6.jpg" id="6" height="300vw" width="400vw" />
         </div>
         <div class="card-action">
         <button onClick={this.zoom6} className="btn">show more</button>
@@ -247,7 +247,7 @@ class Post extends Component{
     <div class="col s12 m6">
       <div class="card purple lighten-2  z-depth-3">
         <div class="card-content white-text">
-        <img src="./pic/7.jpg" id="7"  height="300vw" width="400vw"/>
+        <img  className="responsive-img" src="./pic/7.jpg" id="7"  height="300vw" width="400vw"/>
         </div>
         <div class="card-action">
         <button onClick={this.zoom7} className="btn">show more</button>
@@ -260,7 +260,7 @@ class Post extends Component{
     <div class="col s12 m6 l6">
       <div class="card grey lighten-2  z-depth-3">
         <div class="card-content white-text">
-        <img src="./pic/fun.jpg" id="fun" height="300vw" width="400vw" />
+        <img  className="responsive-img" src="./pic/fun.jpg" id="fun" height="300vw" width="400vw" />
         </div>
         <div class="card-action">
         <button onClick={this.zoomf} className="btn">show more</button>
